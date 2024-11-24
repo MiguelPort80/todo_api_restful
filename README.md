@@ -1,4 +1,4 @@
-# PHP Todo API Restful
+# Todo API Restful
 
 Este é um projeto de API Restful para gerenciamento de tarefas (To-Do) desenvolvido em PHP utilizando o Slim Framework. A API permite criar, ler, atualizar e excluir tarefas de forma simples e eficiente. Os dados são amazenados num arquivo "todo.json".
 
