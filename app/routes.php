@@ -1,6 +1,4 @@
 <?php
-//TODO: Fazer rota de PUT
-//TODO: Fazer rota de DELETE
 
 declare(strict_types=1);
 
