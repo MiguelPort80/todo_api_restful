@@ -7,18 +7,11 @@
         "router",
         "psr7"
     ],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
-        },
-        {
-            "name": "Pierre Berube",
-            "email": "pierre@lgse.com",
-            "homepage": "http://www.lgse.com/"
+            "name": "Miguel Ângelo",
+            "email": "miguelangelojulioporto@gmail.com"
         }
     ],
     "require": {
@@ -46,8 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/",
-            "Controllers\\": "app/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
