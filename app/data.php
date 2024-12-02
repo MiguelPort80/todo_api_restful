@@ -2,30 +2,8 @@
 declare(strict_types=1);
 //DADOS DA TODOLIST
 class Data{
-    static function status() {
-        if (file_exists(__DIR__ . '/../app/todo.json')) {
-            $json = [
-                "status" => "200",
-                "mensagem" => "servidor ativo",
-                "data" => date('Y-m-d H:i:s')
-            ];
-            
-            return json_encode($json);
-        }else {
-            $json = [
-                "status" => "404",
-                "mensagem" => "servidor inativo",
-                "data" => date('Y-m-d H:i:s')
-            ];
-            
-            return json_encode($json);
-        }
-    }    
-
-
     static function resgatarTarefas(string $arquivo){
         try {
-            
             $conteudo = file_get_contents($arquivo);
             $dados = json_decode($conteudo, true);
             return $dados;
@@ -52,7 +30,7 @@ class Data{
  
         }   
      
-    static function adicionar(string $arquivo, array $json){
+   static function adicionar(string $arquivo, array $json){
         try {
             $conteudo = file_get_contents($arquivo);
             $dados = json_decode($conteudo, true);
@@ -65,7 +43,6 @@ class Data{
         }
         return true;
     }
-
     static function editarTarefa(string $arquivo, string $id ,array $json){
         try {
             $conteudo = file_get_contents($arquivo);

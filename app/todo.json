@@ -1,19 +1,19 @@
 {
-    "tarefas": {
-        "0": {
-            "ID": "1",
+    "tarefas": [
+        {
+            "ID": 0,
             "Tarefa": "Estudar php",
-            "Concluida": "Sim"
+            "Concluida": true
         },
-        "2": {
-            "ID": "3",
+        {
+            "ID": 1,
             "Tarefa": "Treinar",
-            "Concluida": "Sim"
+            "Concluida": true
         },
-        "3": {
-            "ID": 4,
-            "Tarefa": "Teste",
-            "Concluida": "Sim"
+        {
+            "ID": 2,
+            "Tarefa": "Estudar slim framework",
+            "Concluida": false
         }
-    }
+    ]
 }
