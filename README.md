@@ -56,7 +56,7 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
   {
       "ID": 1,
       "Tarefa": "Estudar PHP",
-      "Concluida": "Sim"
+      "Concluida": true
   }
   ```
 
@@ -74,7 +74,7 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
   {
       "ID": 1,
       "Tarefa": "Estudar PHP e Slim",
-      "Concluida": "Não"
+      "Concluida": false
   }
   ```
 
