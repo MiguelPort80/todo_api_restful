@@ -2,7 +2,7 @@
 
 Este é um projeto de API Restful para gerenciamento de tarefas (To-Do) desenvolvido em PHP utilizando o Slim Framework. A API permite criar, ler, atualizar e excluir tarefas de forma simples e eficiente. Os dados são amazenados num arquivo "todo.json".
 
-Essa a primeira versão do projeto, pretendo adicionar recursos próprios do slim framework como controllers e middlewares.
+Essa a segunda versão do projeto, pretendo adicionar middlewares JWT.
 ## Tecnologias Utilizadas
 
 - PHP
