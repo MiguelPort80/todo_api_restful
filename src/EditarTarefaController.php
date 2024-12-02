@@ -35,7 +35,7 @@ class EditarTarefaController
                         return true;
                     }
             }
-            throw new Exception("Tarefa não encontrada", 1);
+            throw new \Exception("Tarefa não encontrada", 0);
         } catch (\Throwable $th) {
             return false;
         }
